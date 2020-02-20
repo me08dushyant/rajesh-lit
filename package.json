@@ -1,0 +1,22 @@
+{
+  "name": "rajesh-lit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "es-dev-server --app-index index.html --node-resolve --watch --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/me08dushyant/rajesh-lit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/me08dushyant/rajesh-lit/issues"
+  },
+  "homepage": "https://github.com/me08dushyant/rajesh-lit#readme",
+  "devDependencies": {
+    "es-dev-server": "^1.40.0"
+  }
+}
