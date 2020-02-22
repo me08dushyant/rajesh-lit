@@ -1,5 +1,6 @@
 import { html, render } from 'https://unpkg.com/lit-html/lit-html.js';
 
+
 let headertop = () => html`
 <div class="headbar-top">
 	<div class="grid-container">
@@ -9,7 +10,11 @@ let headertop = () => html`
 	  </div> 
 	   <div class="cell shrink">
 	     <div class="grid-x  ">
-		 <div class="cell shrink"> <i class="step fi-social-facebook size-24"></i>  <i class="step fi-mail size-24"></i> <i class="step fi-social-youtube size-24"></i> <i class="step fi-social-flickr size-24"></i>  </div>	
+		 <div class="cell shrink">
+		 <a href="https://www.facebook.com/ZealFireDanceTroupe" target="_blank"><i class="step fi-social-facebook size-24"></i></a>
+		 <a href="mailto:zfdc07@gmail.com zeal.fire.troupe@gmail.com"><i class="step fi-mail size-24"></i></a>
+		 <a href="https://www.youtube.com/channel/UCBT1-xu69RwShH_oYGym-Og" target="_blank"><i class="step fi-social-youtube size-24"></i></a>
+		 <i class="step fi-social-flickr size-24"></i>  </div>	
 		 </div>
 	  </div> 
 	  </div>
@@ -19,42 +24,42 @@ render(headertop(),document.getElementById('header-top'));
 
 let navbar = () => html`
 <div class="navbar-top">
-	<div class="grid-container">
-		  <div class="grid-x grid-margin-x">
-			<div class=" cell auto align-self-middle">
-			logo
-			</div>
-			<div class="cell shrink">
-					<ul class="dropdown menu" data-dropdown-menu>
-					  <li><a href="index.html">Home</a></li>
-					  <li><a href="about-us.html">About Us </a></li>	
-					  <li><a href="#">Lead Performer</a></li>				  
-					 <li>
-						<a href="#">Shows</a>
-						<ul class="menu">
-						  <li class="size-18"><a href="#">Corporate Shows</a></li>
-						  <li class="size-18" ><a href="#">Celebrities Shows</a></li>
-						  <li class="size-18" ><a href="#">Wedding Events</a></li>
-						  <!-- ... -->
-						</ul>
-					  </li>
-					 <li>
-						<a href="#">Cleints</a>
-						<ul class="menu">
-						  <li class="size-18" ><a href="#">International</a></li>
-						  <li class="size-18" ><a href="#">Indian</a></li>
-						 
-						  <!-- ... -->
-						</ul>
-					  </li>
-					   <li><a href="media.html">Media</a></li>
-					  <li><a href="contact.html">Contact Us</a></li>
-					</ul>
-			</div>
+<div class="grid-container">
+	<div class="grid-x grid-margin-x">
+	<div class=" cell auto align-self-middle">
+	<img src="assets/img/logo.jpg">
+	</div>
+	<div class="cell shrink">
+		<ul class="dropdown menu" data-dropdown-menu>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="about-us.html">About Us </a></li>	
+		  <li><a href="load-performer.html">Lead Performer</a></li>				  
+		 <li>
+		  <div class ="dropdown1">
+		  <a class="dropbtn1">Shows &nbsp;<img src="assets/img/60995.png" width="15px" height="15px"></a>
+		  <div class="dropdown-content1">
+          <a href="#">Corporate Shows</a>
+          <a href="#">Celebrity Shows</a>
+          <a href="#">Wedding events</a>
+          </div>
 		  </div>
-		 
+		  </li>
+		 <li>
+		 <div class ="dropdown1">
+		 <a class="dropbtn1">Clients &nbsp;<img src="assets/img/60995.png" width="15px" height="15px"></a>
+		 <div class="dropdown-content1">
+		 <a href="#">International</a>
+		 <a href="#">Indian</a>
+		 </div>
+		 </div>
+		  </li>
+		   <li><a href="media.html">Media</a></li>
+		  <li><a href="contact.html">Contact Us</a></li>
+		</ul>
 	</div>
 	</div>
+   
+</div>
 `;
 render(navbar(),document.getElementById('nav-bar'));
 
