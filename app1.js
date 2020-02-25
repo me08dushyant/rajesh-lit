@@ -14,7 +14,8 @@ let headertop = () => html`
 		 <a href="https://www.facebook.com/ZealFireDanceTroupe" target="_blank"><i class="step fi-social-facebook size-24"></i></a>
 		 <a href="mailto:zfdc07@gmail.com zeal.fire.troupe@gmail.com"><i class="step fi-mail size-24"></i></a>
 		 <a href="https://www.youtube.com/channel/UCBT1-xu69RwShH_oYGym-Og" target="_blank"><i class="step fi-social-youtube size-24"></i></a>
-		 <i class="step fi-social-flickr size-24"></i>  </div>	
+		 <a href="https://www.flickr.com/photos/zfdc/albums" target="_blank"><i class="step fi-social-flickr size-24"></i></a>  
+		 </div>	
 		 </div>
 	  </div> 
 	  </div>
@@ -33,14 +34,14 @@ let navbar = () => html`
 		<ul class="dropdown menu" data-dropdown-menu>
 		  <li><a href="index.html">Home</a></li>
 		  <li><a href="about-us.html">About Us </a></li>	
-		  <li><a href="load-performer.html">Lead Performer</a></li>				  
+		  <li><a href="lead-performer.html">Lead Performer</a></li>				  
 		 <li>
 		  <div class ="dropdown1">
 		  <a class="dropbtn1">Shows &nbsp;<img src="assets/img/60995.png" width="15px" height="15px"></a>
 		  <div class="dropdown-content1">
-          <a href="#">Corporate Shows</a>
-          <a href="#">Celebrity Shows</a>
-          <a href="#">Wedding events</a>
+          <a href="corporate-shows.html">Corporate Shows</a>
+          <a href="celebrity-shows.html">Celebrity Shows</a>
+          <a href="wedding-events.html">Wedding events</a>
           </div>
 		  </div>
 		  </li>
@@ -92,7 +93,7 @@ let footer = () => html`
 	<div class="logo-placeholder">
 	<p class="text-center">
 	
-	<a href="#"  class="hollow button" >Download Presentation PDF </a>
+	<a href="ZEAL FIRE DANCE COMPANY 2019+20.pdf" target="_blank"  class="hollow button" >Download Presentation PDF </a>
 	</p>
 	</div>	
 	
@@ -101,3 +102,4 @@ let footer = () => html`
 `;
 
 render(footer(),document.getElementById('footer'));
+

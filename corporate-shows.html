@@ -5,32 +5,47 @@
     <title></title>
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/ico/foundation-icons.css">
-  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgds.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
   
   </head>
   <body>
 <div id="header-top"></div>
 <div id="nav-bar"></div>
 <div class="sub-header">
-  <div class="grid-container">
-    <h2>Media</h2>
-  </div>
+	<div class="grid-container">
+		<h2>Corporate Shows</h2>
+	</div>
+</div>
+<div>
+  <div data-nanogallery2='{
+"userID": "137218675@N06",
+"kind": "flickr",
+"photoset" : "72157687363735950",
+"thumbnailWidth": "300",
+"thumbnailHeight": "auto",
+"thumbnailBorderVertical": 1,
+"thumbnailBorderHorizontal": 1,
+"thumbnailLabel": {
+"display": false
+},
+
+"colorScheme": {
+"thumbnail": {
+"borderColor": "rgba(239,239,239,1)"
+}
+},
+"thumbnailAlignment": "center"
+
+}'>
+
+
 </div>
 
-<form>
-  <div class="grid-container">
-  <h3> Feel free to ask your queries </h3>
-    <div class="grid-x grid-padding-x">
-      <div class="cell">       
-          <input type="text" placeholder="Your Name" /> <br/>   
-     <input type="email" placeholder="Your Email" />   <br/>
-     <textarea placeholder="None" style="height:250px" > </textarea>  <br/>
-     <input type="submit" class="button large "  value="Submit">
-      </div>
-
-    </div>
-  </div>
-</form>
+</div>
 <div id="footer"></div>
 <script type="module" src="app1.js"></script>
 <script src="assets/js/app.js"></script>
