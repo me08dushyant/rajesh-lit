@@ -50,7 +50,7 @@ let navbar = () => html`
 		 <a class="dropbtn1">Clients &nbsp;<img src="assets/img/60995.png" width="15px" height="15px"></a>
 		 <div class="dropdown-content1">
 		 <a href="#">International</a>
-		 <a href="#">Indian</a>
+		 <a href="indian-clients.html">Indian</a>
 		 </div>
 		 </div>
 		  </li>
